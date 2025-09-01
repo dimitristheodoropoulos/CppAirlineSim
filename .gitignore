@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# IDE / Editor files
+.vscode/
+
+# Logs
+*.log
+
+# Python generated files (για το generate_data.py)
+__pycache__/
+*.pyc
+
+# CSV / data files που μπορείς να παραμετροποιήσεις αν δεν θέλεις να είναι στο repo
+# data/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
